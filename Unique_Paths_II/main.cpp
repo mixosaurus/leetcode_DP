@@ -11,7 +11,7 @@ int main() {
 		{0,1,0},
 		{0,0,0}
 	};
-	solution.uniquePathsWithObstacles(obstacleGrid);
+	cout << solution.uniquePathsWithObstacles(obstacleGrid) << endl;
 	system("pause");
 	return 0;
 }
