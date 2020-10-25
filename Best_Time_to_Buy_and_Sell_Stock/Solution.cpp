@@ -8,6 +8,7 @@ int Solution::maxProfit(vector<int>& prices) {
     int inf = 1e9;
     int min_price = inf;
     int size = prices.size();
+    //状态：
     int* dp = new int[size] {};
     dp[0] = 0;
     //状态转移方程

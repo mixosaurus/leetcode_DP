@@ -8,7 +8,7 @@ int Solution::rob(vector<int>& nums) {
     if (size == 1) {
         return nums.front();
     }
-    //状态：从房屋0到房屋i所偷窃的最高金额
+    //状态：偷窃前i个房屋所得的最高金额
     int* dp = new int[size] {};
     dp[0] = nums.front();
     dp[1] = max(nums[0],nums[1]);
