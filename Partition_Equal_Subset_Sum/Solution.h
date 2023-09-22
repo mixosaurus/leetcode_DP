@@ -7,6 +7,7 @@ using namespace std;
 
 class Solution {
 public:
+	bool canPartitionCompress(vector<int>& nums);
 	bool canPartition(vector<int>& nums);
 };
 
